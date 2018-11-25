@@ -18,10 +18,8 @@
           <i class="el-icon-location"></i>
           <span>怪物管理</span>
         </template>
-        <el-menu-item-group>
-          <el-menu-item index="1-0" >怪物维护</el-menu-item>
+          <el-menu-item index="/monster/list" >怪物维护</el-menu-item>
           <el-menu-item index="1-1" >关卡怪设置</el-menu-item>
-        </el-menu-item-group>
       </el-submenu>
       <el-submenu index="2">
         <template slot="title">
