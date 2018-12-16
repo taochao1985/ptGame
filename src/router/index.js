@@ -26,7 +26,7 @@ export default new Router({
     },
     {
       path: '/person/title_manage',
-      name: 'titleManage',
+      name: 'home',
       component: titleManage,
       meta: {title:'职业模板维护'}
     },
